@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- nav -->
+      <nav class="navbar navbar-expand-lg navbar-light" id="nam">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/avatars.jpg" alt="" class="nav-img"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Discography
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Albums</a></li>
+                  <li><a class="dropdown-item" href="#">Single Albums</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Events</a></li>
+                  <li><a class="dropdown-item" href="#">Single Events</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Videos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Videos Galary</a></li>
+                  <li><a class="dropdown-item" href="#">Single video </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="container-fluid ban carousel-fade">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" id="ban-one">
+              <div class="ban-info">
+                <h2 class="ban-head">
+                  Fossils<span class="ban-span">#JoyRock</span>
+                </h2>
+                <button class="ban-butt">listen now</button>
+              </div>
+            </div>
+            <div class="carousel-item" id="ban-two">
+              <div class="ban-info1">
+                <h2 class="ban-head">
+                  Fossils<span class="ban-span">#JoyRock</span>
+                </h2>
+                <button class="ban-butt1">listen now</button>
+              </div>
+            </div>
+            <div class="carousel-item" id="ban-three">
+              <div class="ban-info">
+                <h2 class="ban-head1">
+                  Fossils<span class="ban-span">#JoyRock</span>
+                </h2>
+                <button class="ban-butt">listen now</button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- section1 -->
+    <section class="sec1-bag">
+      <div class="container">
+        <div class="row sec1-main">
+          <div class="col-12 sec1-info2">
+            <h1 class="sec1-head">Fossils</h1>
+            <div class="row sec1-det align-items-center justify-content-around">
+              <div class="col-5 sec1-info">
+                <img src="./images/history2.png" alt="" class="sec1-img1" />
+              </div>
+              <div class="col-5 sec1-info1">
+                <h3 class="sec1-head2">WHO AM I</h3>
+                <p class="sec1-para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Obcaecati, officiis magni beatae neque delectus tempora, ea
+                  quos saepe quas, illo harum pariatur. Ipsam aliquam cumque, et
+                  expedita sint culpa provident. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Architecto, atque rem. Maxime
+                  similique atque illum blanditiis hic rerum repellat neque nemo
+                  ipsum, praesentium saepe, quae ea consectetur eligendi
+                  cupiditate quos! Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Modi maiores, ullam repudiandae perferendis
+                  voluptate ut saepe amet ad a impedit ratione! Debitis quasi
+                  soluta modi, molestiae ea deleniti necessitatibus consectetur
+                  sint alias, suscipit numquam voluptatibus! Dolore dignissimos
+                  doloribus non recusandae quam quia in molestias sed.
+                </p>
+              </div>
+            </div>
+            <div class="row sec1-det align-items-center justify-content-around">
+              <div class="col-5 sec1-info1">
+                <p class="sec1-para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Obcaecati, officiis magni beatae neque delectus tempora, ea
+                  quos saepe quas, illo harum pariatur. Ipsam aliquam cumque, et
+                  expedita sint culpa provident. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Architecto, atque rem. Maxime
+                  similique atque illum blanditiis hic rerum repellat neque nemo
+                  ipsum, praesentium saepe, quae ea consectetur eligendi
+                  cupiditate quos! Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Minus nemo culpa sit quas, assumenda placeat
+                  eius officia nostrum reiciendis laborum modi sapiente nesciunt
+                  sint rem? Nihil velit laudantium cum ea?Lorem ipsum dolor sit
+                  amet consectetur, adipisicing elit. Quia, itaque. Fuga culpa,
+                  suscipit molestias quasi est tenetur! Debitis minus,
+                  accusantium expedita dicta doloremque ipsa corporis!
+                </p>
+              </div>
+              <div class="col-5 sec1-info">
+                <img src="./images/history3.png" alt="" class="sec1-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section2 -->
+    <div
+      style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+      class="swiper mySwiper2"
+    >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" id="sec2-one">
+          <div class="sec2-info">
+            <h2 class="sec2-head">Latest Release</h2>
+            <div class="sec2-det">
+              <i class="fa-brands fa-youtube"></i>
+              <div class="you-link">
+                <h3 class="sec2-head1">Subscribe To</h3>
+                <span class="sec2-span">http://youtube.com/rupamislam</span>
+              </div>
+            </div>
+          </div>
+          <div class="sec2-info1">
+            <img
+              src="./images/vid-preview-stobdho-jibon-dewali-pee.jpg"
+              alt=""
+              class="sec2-img1"
+            />
+            <div class="sec2-det1">
+              <p class="sec2-p">23june,2019</p>
+              <h2 class="sec2-head1">Dewali Pee</h2>
+              <div class="m-link">
+                <img src="./images/itunes-dark.png" alt="" class="sec2-img2" />
+                <img src="./images/gaana-dark.png" alt="" class="sec2-img2" />
+                <img src="./images/saavn-dark.png" alt="" class="sec2-img2" />
+                <img
+                  src="./images/amazon-music-dark.png"
+                  alt=""
+                  class="sec2-img2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" id="sec2-two">
+          <div class="sec2-info">
+            <h2 class="sec2-head2">Latest Release</h2>
+            <div class="sec2-det">
+              <i class="fa-brands fa-youtube"></i>
+              <div class="you-link">
+                <h3 class="sec2-head1">Subscribe To</h3>
+                <span class="sec2-span">http://youtube.com/rupamislam</span>
+              </div>
+            </div>
+          </div>
+          <div class="sec2-info1">
+            <img
+              src="./images/vid-preview-hridoy-bhangbar-gaan.jpg"
+              alt=""
+              class="sec2-img1"
+            />
+            <div class="sec2-det1">
+              <p class="sec2-p">23March,2019</p>
+              <h2 class="sec2-head1">HridoyBhangbarGaan</h2>
+              <div class="m-link">
+                <img src="./images/itunes-dark.png" alt="" class="sec2-img2" />
+                <img src="./images/gaana-dark.png" alt="" class="sec2-img2" />
+                <img src="./images/saavn-dark.png" alt="" class="sec2-img2" />
+                <img
+                  src="./images/amazon-music-dark.png"
+                  alt=""
+                  class="sec2-img2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" id="sec2-three">
+          <div class="sec2-info">
+            <h2 class="sec2-head">Latest Release</h2>
+            <div class="sec2-det">
+              <i class="fa-brands fa-youtube"></i>
+              <div class="you-link">
+                <h3 class="sec2-head1">Subscribe To</h3>
+                <span class="sec2-span">http://youtube.com/rupamislam</span>
+              </div>
+            </div>
+           </div>
+          <div class="sec2-info1">
+            <img
+              src="./images/vid-preview-ghreena.jpg"
+              alt=""
+              class="sec2-img1"
+            />
+            <div class="sec2-det1">
+              <p class="sec2-p">23june,2019</p>
+              <h2 class="sec2-head1">Ghreena</h2>
+              <div class="m-link">
+                <img src="./images/itunes-dark.png" alt="" class="sec2-img2" />
+                <img src="./images/gaana-dark.png" alt="" class="sec2-img2" />
+                <img src="./images/saavn-dark.png" alt="" class="sec2-img2" />
+                <img
+                  src="./images/amazon-music-dark.png"
+                  alt=""
+                  class="sec2-img2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" id="sec2-four">
+            <div class="sec2-info">
+              <h2 class="sec2-head">Latest Release</h2>
+              <div class="sec2-det">
+                <i class="fa-brands fa-youtube"></i>
+                <div class="you-link">
+                  <h3 class="sec2-head1">Subscribe To</h3>
+                  <span class="sec2-span">http://youtube.com/rupamislam</span>
+                </div>
+              </div>
+            </div>
+            <div class="sec2-info1">
+              <img
+                src="./images/vid-preview-janla.jpg"
+                alt=""
+                class="sec2-img1"
+              />
+              <div class="sec2-det1">
+                <p class="sec2-p">23june,2019</p>
+                <h2 class="sec2-head1">janala</h2>
+                <div class="m-link">
+                  <img
+                    src="./images/itunes-dark.png"
+                    alt=""
+                    class="sec2-img2"
+                  />
+                  <img src="./images/gaana-dark.png" alt="" class="sec2-img2" />
+                  <img src="./images/saavn-dark.png" alt="" class="sec2-img2" />
+                  <img
+                    src="./images/amazon-music-dark.png"
+                    alt=""
+                    class="sec2-img2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="swiper-slide" id="sec2-five">
+              <div class="sec2-info">
+                <h2 class="sec2-head2">Latest Release</h2>
+                <div class="sec2-det">
+                  <i class="fa-brands fa-youtube"></i>
+                  <div class="you-link">
+                    <h3 class="sec2-head1">Subscribe To</h3>
+                    <span class="sec2-span">http://youtube.com/rupamislam</span>
+                  </div>
+                </div>
+              </div>
+              <div class="sec2-info1">
+                <img
+                  src="./images/vid-preview-palao.jpg"
+                  alt=""
+                  class="sec2-img1"
+                />
+                <div class="sec2-det1">
+                  <p class="sec2-p">23june,2019</p>
+                  <h2 class="sec2-head1">palao</h2>
+                  <div class="m-link">
+                    <img
+                      src="./images/itunes-dark.png"
+                      alt=""
+                      class="sec2-img2"
+                    />
+                    <img src="./images/gaana-dark.png" alt="" class="sec2-img2" />
+                    <img src="./images/saavn-dark.png" alt="" class="sec2-img2" />
+                    <img
+                      src="./images/amazon-music-dark.png"
+                      alt=""
+                      class="sec2-img2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" id="sec2-six">
+              <div class="sec2-info">
+                <h2 class="sec2-head">Latest Release</h2>
+                <div class="sec2-det">
+                  <i class="fa-brands fa-youtube"></i>
+                  <div class="you-link">
+                    <h3 class="sec2-head1">Subscribe To</h3>
+                    <span class="sec2-span">http://youtube.com/rupamislam</span>
+                  </div>
+                </div>
+              </div>
+              <div class="sec2-info1">
+                <img
+                  src="./images/vid-preview-mrito-manush.jpg"
+                  alt=""
+                  class="sec2-img1"
+                />
+                <div class="sec2-det1">
+                  <p class="sec2-p">23june,2019</p>
+                  <h2 class="sec2-head1">Mrito Manush</h2>
+                  <div class="m-link">
+                    <img
+                      src="./images/itunes-dark.png"
+                      alt=""
+                      class="sec2-img2"
+                    />
+                    <img src="./images/gaana-dark.png" alt="" class="sec2-img2" />
+                    <img src="./images/saavn-dark.png" alt="" class="sec2-img2" />
+                    <img
+                      src="./images/amazon-music-dark.png"
+                      alt=""
+                      class="sec2-img2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide" id="sec2-seven">
+              <div class="sec2-info">
+                <h2 class="sec2-head">Latest Release</h2>
+                <div class="sec2-det">
+                  <i class="fa-brands fa-youtube"></i>
+                  <div class="you-link">
+                    <h3 class="sec2-head1">Subscribe To</h3>
+                    <span class="sec2-span">http://youtube.com/rupamislam</span>
+                  </div>
+                </div>
+              </div>
+              <div class="sec2-info1">
+                <img
+                  src="./images/vid-preview-stobdho-jibon.jpg"
+                  alt=""
+                  class="sec2-img1"
+                />
+                <div class="sec2-det1">
+                  <p class="sec2-p">23june,2019</p>
+                  <h2 class="sec2-head1">Stobdho Jibon</h2>
+                  <div class="m-link">
+                    <img
+                      src="./images/itunes-dark.png"
+                      alt=""
+                      class="sec2-img2"
+                    />
+                    <img src="./images/gaana-dark.png" alt="" class="sec2-img2" />
+                    <img src="./images/saavn-dark.png" alt="" class="sec2-img2" />
+                    <img
+                      src="./images/amazon-music-dark.png"
+                      alt=""
+                      class="sec2-img2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+      </div>
+        <div thumbsSlider="" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./images/vid-preview-stobdho-jibon-dewali-pee.jpg"
+                class="sec2-img"
+              />
+            </div>
+            <div class="swiper-slide ">
+              <img
+                src="./images/vid-preview-hridoy-bhangbar-gaan.jpg"
+                class="sec2-img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/vid-preview-ghreena.jpg" class="sec2-img" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/vid-preview-janla.jpg" class="sec2-img" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/vid-preview-palao.jpg" class="sec2-img" />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/vid-preview-mrito-manush.jpg"
+                class="sec2-img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/vid-preview-stobdho-jibon.jpg"
+                class="sec2-img"
+              />
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- section3 -->
+    <section class="sec3-bag">
+      <div class="container">
+        <div class="row sec3-main">
+          <div class="col-12 sec3-info">
+           <h2 class="sec3-head">FOSSILS</h2>
+           <p class="sec3-para">MEMBERS</p>
+           <div class="row sec3-main1 justify-content-center">
+            <div class="col-2 sec3-item">
+              <div class="sec3-name">
+                <h2 class="sec3-head1">RUPAM<span class="sec3-span">Islam</span></h2>
+              </div>
+            </div>
+            <div class="col-2 sec3-item1">
+              <div class="sec3-name">
+                <h2 class="sec3-head1">ALLAN<span class="sec3-span">Temjen Ao</span></h2>
+              </div>
+            </div>
+            <div class="col-2 sec3-item2">
+              <div class="sec3-name">
+                <h2 class="sec3-head1">DEEP<span class="sec3-span">Ghosh</span></h2>
+              </div>
+            </div>
+            <div class="col-2 sec3-item3">
+              <div class="sec3-name">
+                <h2 class="sec3-head1">TANMOY<span class="sec3-span">Das</span></h2>
+              </div>
+            </div>
+            <div class="col-2 sec3-item4">
+              <div class="sec3-name">
+                <h2 class="sec3-head1">Pom<span class="sec3-span">Chakraborty</span></h2>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section4 -->
+     <section class="sec4-bag">
+      <div class="container">
+        <div class="row sec4-main">
+          <div class="col-12 sec4-info">
+           <h2 class="sec4-head">FOSSILS</h2>
+           <p class="sec4-para">Discography</p>
+           <div class="row sec4-main1 justify-content-around">
+            <div class="col-2 sec4-item">
+              <div class="sec4-disc">
+              </div>
+              <div class="sec4-name">
+                <h2 class="sec4-head2">Fossils 5<span class="sec4-span">2019</span></h2>
+                <h2 class="sec4-head1">Songs</h2>
+               <div class="sec4-para2">
+                <p class="sec4-para1">Ghreena <i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Dekho Manashi<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Dewali Pee <i class="fa-solid fa-play"></i></p>
+               </div>
+                <div class="i-link">
+                  <img src="./images/gaana.png" alt="" class="sec4-ic">
+                  <img src="./images/itunes.png" alt="" class="sec4-ic">
+                  <img src="./images/saavn.png" alt="" class="sec4-ic">
+                  <img src="./images/wynk.png" alt="" class="sec4-ic">
+                </div>
+              </div>
+            </div>
+            <div class="col-2 sec4-item">
+              <div class="sec4-disc1">
+              </div>
+              <div class="sec4-name">
+                <h2 class="sec4-head2">Fossils 5<span class="sec4-span">2017</span></h2>
+                <h2 class="sec4-head1">Songs</h2>
+               <div class="sec4-para2">
+                <p class="sec4-para1">Mrito Manush<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">palao<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Janla<i class="fa-solid fa-play"></i></p>
+               </div>
+                <div class="i-link">
+                  <img src="./images/gaana.png" alt="" class="sec4-ic">
+                  <img src="./images/itunes.png" alt="" class="sec4-ic">
+                  <img src="./images/saavn.png" alt="" class="sec4-ic">
+                  <img src="./images/wynk.png" alt="" class="sec4-ic">
+                </div>
+              </div>
+            </div>
+            <div class="col-2 sec4-item">
+              <div class="sec4-disc2">
+          
+              </div>
+              <div class="sec4-name">
+                <h2 class="sec4-head2">Fossils 4<span class="sec4-span">2013</span></h2>
+                <h2 class="sec4-head1">Songs</h2>
+               <div class="sec4-para2">
+                <p class="sec4-para1">Khnoro Amar Fossil<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Mohakash<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Shoytaan<i class="fa-solid fa-play"></i></p>
+               </div>
+                <div class="i-link">
+                  <img src="./images/gaana.png" alt="" class="sec4-ic">
+                  <img src="./images/itunes.png" alt="" class="sec4-ic">
+                  <img src="./images/saavn.png" alt="" class="sec4-ic">
+                  <img src="./images/wynk.png" alt="" class="sec4-ic">
+                </div>
+              </div>
+            </div>
+            <div class="col-2 sec4-item">
+              <div class="sec4-disc3">
+
+              </div>
+              <div class="sec4-name">
+                <h2 class="sec4-head2">Fossils 3<span class="sec4-span">2009</span></h2>
+                <h2 class="sec4-head1">Songs</h2>
+               <div class="sec4-para2">
+                <p class="sec4-para1">Phire Chalo<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Bhoot Ar Tilottoma<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Haspatale<i class="fa-solid fa-play"></i></p>
+               </div>
+                <div class="i-link">
+                  <img src="./images/gaana.png" alt="" class="sec4-ic">
+                  <img src="./images/itunes.png" alt="" class="sec4-ic">
+                  <img src="./images/saavn.png" alt="" class="sec4-ic">
+                  <img src="./images/wynk.png" alt="" class="sec4-ic">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row sec4-main1 justify-content-around">
+              <div class="col-2 sec4-item">
+                <div class="sec4-disc4">
+                </div>
+                <div class="sec4-name">
+                <h2 class="sec4-head2">Aupodartho<span class="sec4-span">2009</span></h2>
+                <h2 class="sec4-head1">Songs</h2>
+               <div class="sec4-para2">
+                <p class="sec4-para1">Aupodartho<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Chhal<i class="fa-solid fa-play"></i></p>
+                <p class="sec4-para1">Manob Boma<i class="fa-solid fa-play"></i></p>
+               </div>
+                <div class="i-link">
+                  <img src="./images/gaana.png" alt="" class="sec4-ic">
+                  <img src="./images/itunes.png" alt="" class="sec4-ic">
+                  <img src="./images/saavn.png" alt="" class="sec4-ic">
+                  <img src="./images/wynk.png" alt="" class="sec4-ic">
+                </div>
+              </div>
+            </div>
+              <div class="col-2 sec4-item">
+                <div class="sec4-disc5">
+                  
+                </div>
+                <div class="sec4-name">
+                  <h2 class="sec4-head2">Mission F<span class="sec4-span">2006</span></h2>
+                  <h2 class="sec4-head1">Songs</h2>
+                 <div class="sec4-para2">
+                  <p class="sec4-para1">Sototar Bilashita<i class="fa-solid fa-play"></i></p>
+                  <p class="sec4-para1">Etwastata<i class="fa-solid fa-play"></i></p>
+                  <p class="sec4-para1">Sono Amra Ki<i class="fa-solid fa-play"></i></p>
+                 </div>
+                  <div class="i-link">
+                    <img src="./images/gaana.png" alt="" class="sec4-ic">
+                    <img src="./images/itunes.png" alt="" class="sec4-ic">
+                    <img src="./images/saavn.png" alt="" class="sec4-ic">
+                    <img src="./images/wynk.png" alt="" class="sec4-ic">
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 sec4-item">
+                <div class="sec4-disc6">
+  
+                </div>
+                <div class="sec4-name">
+                  <h2 class="sec4-head2">Fossils 2<span class="sec4-span">2004</span></h2>
+                  <h2 class="sec4-head1">Songs</h2>
+                 <div class="sec4-para2">
+                  <p class="sec4-para1">Harano Podok<i class="fa-solid fa-play"></i></p>
+                  <p class="sec4-para1">Acid<i class="fa-solid fa-play"></i></p>
+                  <p class="sec4-para1">Bicycle Cho<i class="fa-solid fa-play"></i></p>
+                 </div>
+                  <div class="i-link">
+                    <img src="./images/gaana.png" alt="" class="sec4-ic">
+                    <img src="./images/itunes.png" alt="" class="sec4-ic">
+                    <img src="./images/saavn.png" alt="" class="sec4-ic">
+                    <img src="./images/wynk.png" alt="" class="sec4-ic">
+                  </div>
+                </div>
+              </div>  
+             <div class="col-2 sec4-item">
+              <div class="sec4-disc7">
+
+              </div>
+               <div class="sec4-name">
+                <h2 class="sec4-head2">Fossils 1<span class="sec4-span">2002</span></h2>
+                  <h2 class="sec4-head1">Songs</h2>
+                 <div class="sec4-para2">
+                  <p class="sec4-para1">Hasnuhana<i class="fa-solid fa-play"></i></p>
+                  <p class="sec4-para1">Nemesis<i class="fa-solid fa-play"></i></p>
+                  <p class="sec4-para1">Bishakta Manush<i class="fa-solid fa-play"></i></p>
+                 </div>
+                  <div class="i-link">
+                    <img src="./images/gaana.png" alt="" class="sec4-ic">
+                    <img src="./images/itunes.png" alt="" class="sec4-ic">
+                    <img src="./images/saavn.png" alt="" class="sec4-ic">
+                    <img src="./images/wynk.png" alt="" class="sec4-ic">
+                  </div>
+              </div>
+             </div>  
+          </div>  
+        </div>
+       </div>
+      </div>
+    </section>
+    <!-- sec5 -->
+    <section class="sec5-bag">
+      <div class="container">
+       <div class="row sec5-main">
+        <div class="col-12 sec5-info">
+         <h2 class="sec5-head">Upcoming Gigs</h2>
+         <p class="sec5-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur tempore perspiciatis rem itaque voluptate?</p>
+          <div class="row sec5-main1 justify-content-around">
+            <div class="col-10 sec5-info1">
+             <div class="sec5-det">
+              <h2 class="sec5-head1">May 14 <span class="sec5-span">Kolkata</span></h2>
+              <div class="sec5-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="sec5-para1">Nazrul Mancha</p>
+              </div>
+              <div class="sec5-icon">
+                <i class="fa-regular fa-clock"></i>
+                <p class="sec5-para1">21:00</p>
+              </div>
+             </div>
+              <button class="sec5-butt">Buy tickets</button>
+            </div>
+          </div>
+          <div class="row sec5-main1 justify-content-around">
+            <div class="col-10 sec5-info1">
+            <div class="sec5-det">
+             <h2 class="sec5-head1">May 25 <span class="sec5-span">NewTown</span></h2>
+              <div class="sec5-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="sec5-para1">Eco Park</p>
+              </div>
+              <div class="sec5-icon1">
+                <i class="fa-regular fa-clock"></i>
+                <p class="sec5-para1">19:00</p>
+              </div>
+             </div>
+              <button class="sec5-butt">Buy tickets</button>
+            </div>
+          </div>
+          <div class="row sec5-main1 justify-content-around">
+            <div class="col-10 sec5-info1">
+             <div class="sec5-det">
+              <h2 class="sec5-head1">June 2<span class="sec5-span">Nadia</span></h2>
+              <div class="sec5-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="sec5-para1">Kalyani</p>
+              </div>
+              <div class="sec5-icon2">
+                <i class="fa-regular fa-clock"></i>
+                <p class="sec5-para1">18:00</p>
+              </div>
+             </div>
+              <button class="sec5-butt">Buy tickets</button>
+            </div>
+          </div>
+          <div class="row sec5-main1 justify-content-around">
+            <div class="col-10 sec5-info1">
+             <div class="sec5-det">
+              <h2 class="sec5-head1">june 8<span class="sec5-span">Siliguri</span></h2>
+              <div class="sec5-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="sec5-para1">Siliguri</p>
+              </div>
+              <div class="sec5-icon2">
+                <i class="fa-regular fa-clock"></i>
+                <p class="sec5-para1">19:00</p>
+              </div>
+             </div>
+              <button class="sec5-butt">Buy tickets</button>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <!-- sec6 -->
+    <section class="sec6-bag">
+      <div class="container">
+       <div class="row sec6-main">
+        <div class="col-12 sec6-info">
+          <h2 class="sec6-head">Latest News</h2>
+          <div class="row sec6-main1 justify-content-around">
+            <div class="col-2 sec6-info1">
+             <img src="./images/News.png" alt="" class="sec6-img">
+             <p class="sec6-para">July 14,2024</p>
+             <h2 class="sec6-head1">New Fossils Alubum Release Now</h2>
+             <a href="" class="sec6-link">View all news</a>
+            </div>
+            <div class="col-2 sec6-info1">
+              <img src="./images/News1_.jpg" alt="" class="sec6-img">
+              <p class="sec6-para">July 14,2024</p>
+              <h2 class="sec6-head1">New Fossils Alubum Release Now</h2>
+              <a href="" class="sec6-link">View all news</a>
+            </div>
+            <div class="col-2 sec6-info1">
+              <img src="./images/news2.png" alt="" class="sec6-img">
+              <p class="sec6-para">July 14,2024</p>
+              <h2 class="sec6-head1">New Fossils Alubum Release Now</h2>
+              <a href="" class="sec6-link">View all news</a>
+            </div>
+            <div class="col-2 sec6-info1">
+              <img src="./images/news4.jpg" alt="" class="sec6-img">
+              <p class="sec6-para">July 14,2024</p>
+              <h2 class="sec6-head1">New Fossils Alubum Release Now</h2>
+              <a href="" class="sec6-link">View all news</a>
+             </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <!--section7 -->
+    <section class="sec7-bag">
+      <div class="container">
+        <div class="row sec7-main">
+          <div class="col-12 sec7-info">
+            <h2 class="sec7-head">Our Store</h2>
+            <div class="row sec7-main1 justify-content-around">
+              <div class="col-2 sec7-info1">
+                <img src="./images/Tshirt.jpg" alt="" class="sec7-img">
+                <div class="sec7-det">
+                <div class="sec7-amt">
+                  <h3 class="sec7-head1">FOSSILS</h3>
+                  <p class="sec7-para">$50</p>
+                </div>
+                <div class="sec7-amt">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <p class="sec7-para">Add to Cart</p>
+                </div>
+              </div>
+              </div>
+             <div class="col-2 sec7-info1">
+              <img src="./images/Tshirt2.webp" alt="" class="sec7-img">
+              <div class="sec7-det">
+              <div class="sec7-amt">
+                <h3 class="sec7-head1">FOSSILS</h3>
+                <p class="sec7-para">$50</p>
+              </div>
+              <div class="sec7-amt">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="sec7-para">Add to Cart</p>
+              </div>
+            </div>
+           </div>
+          <div class="col-2 sec7-info1">
+            <img src="./images/t-shirt4.jpg" alt="" class="sec7-img">
+            <div class="sec7-det">
+            <div class="sec7-amt">
+              <h3 class="sec7-head1">FOSSILS</h3>
+              <p class="sec7-para">$50</p>
+            </div>
+            <div class="sec7-amt">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p class="sec7-para">Add to Cart</p>
+            </div>
+          </div>
+         </div>
+         <div class="col-2 sec7-info1">
+          <img src="./images/T-Shirt7.jpg" alt="" class="sec7-img">
+          <div class="sec7-det">
+          <div class="sec7-amt">
+            <h3 class="sec7-head1">FOSSILS</h3>
+            <p class="sec7-para">$50</p>
+          </div>
+          <div class="sec7-amt">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="sec7-para">Add to Cart</p>
+          </div>
+        </div>
+      </div>
+     </div>
+     </div>
+    </div>
+    </div>
+    </section>
+    <!-- section8 -->
+    <section class="sec8-bag">
+      <div class="container">
+        <div class="row sec8-main">
+          <div class="col-5 sec8-info">
+           
+          </div>
+          <div class="col-5 sec8-info1">
+            <p class="sec8-para">Official fan club of FOSSILS</p>
+            <h2 class="sec8-head">FOSSILS FORCE</h2>
+            <div class="sec8-butt">
+              <button class="sec8-butt1">Visit Website</button>
+              <button class="sec8-butt2">Join Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+     <footer class="foot-bag">
+       <div class="container">
+        <div class="row align-items-center foot-main">
+          <div class="col-9 foot-info">
+          <div class="form-det">
+            <form action="" method="post" id="fcon">
+              <h2 class="foot-head">Write To us</h2>
+              <div class="f-in">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="">
+              </div>
+              <div class="gap-200">
+              </div>
+                <div class="f-in">
+                  <label for="Email">Email</label>
+                  <input type="email" id="Email">
+                </div>
+                <div class="gap-200">
+                </div>
+                  <div class="f-in">
+                    <label for="phnum">Mobile number</label>
+                    <input type="number" id="phnum">
+                  </div>
+                  <div class="gap-200">
+                  </div>
+                    <div class="f-in">
+                      <label for="mess">Your message</label>
+                      <input type="text" id="mess">
+                    </div>
+                    <div class="gap-200">
+                    </div>
+                      <div class="f-but">
+                       <button class="foot-butt">SEND</button>
+                      </div>
+            </form>
+          </div>
+          <div class="call">
+            <span class="numb">Call:</span>
+            <p class="foot-para">9856281239</p>
+          </div>
+          <div class="mail">
+            <span class="numb">Email:</span>
+            <p class="foot-para">abcd@gmail.com</p>
+          </div>
+          <div class="socal-icon">
+            <a href="" class="f-lin"><img src="./images/facebook-logo.svg" alt="" class="foot-img"></a>
+            <a href="" class="f-lin"><img src="./images/twitter.svg" alt=""  class="foot-img"></a>
+            <a href="" class="f-lin"><img src="./images/instagram-logo.svg" alt=""  class="foot-img"></a>
+          </div>
+          </div>
+        </div>
+       </div>
+     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="home.js"></script>
+  </body>
+</html>
